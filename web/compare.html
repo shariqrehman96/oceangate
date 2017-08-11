@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>comapare products</title>
+<link  type="text/css" rel="stylesheet" href="file:///C|/Users/lap/Desktop/mega project/css/home css.css"/>
+</head>
+<body>
+<div class="main">
+<div class="bg">
+<div class="logo"> <img src="file:///C|/Users/lap/Desktop/mega project/images/1j+ojl1KOMkX9WyofBe43D6kjP+JrBJPnhjEwXs1M3EMoAJtlSAtgfJp8v4+.png" style="margin-left:70px;" />  </div> <div class="menu"> <div class="nav" style="margin-left:280px;"> <ul> 
+<a  href="home page.html"><li>  Home 
+</li> </a>
+<a href="home page.html"><li>About us </li></a>
+<li > Brands
+<ul>
+ <a href="main page.html"><li> Samsung </li></a>
+ <a  href="Sandisk.html"><li> Sandisk </li></a>
+ 
+ 
+</ul> 
+    </li>  
+
+<a href="home page.html"><li>Contact us </li></a>
+<a  href="compare.html"><li>Compare </li></a>
+
+</ul> 
+</div></div>
+</div>
+
+<div class="vd" style="height:500px; width:100%; background:#000; float:left; "> <video src="file:///C|/Users/lap/Desktop/mega project/videos/SAN vs. NAS vs. DAS- Competing or Complementary-.mp4" autoplay="autoplay" height="500px;" width="100%" > </video></div>
+
+
+<div class="mybox">
+
+<select onchange="list1()" id="sel1">
+<option>SAMSUNG</option>
+<option value="SamsungSSD">Samsung SSD</option>
+<option value="Samsung PSD">Samsung PSD</option>
+<option value="Samsung Memory card">Samsung Memory card</option>
+<option value="Samsung USB">Samsung USB</option>
+
+</select>
+
+<img src="" id="img1" />
+<h1 id="name1"></h1>
+<p id="des1"></p>
+</div>
+
+<div class="mybox">
+
+<select onchange="list2()" id="sel2">
+<option>Sandisk</option>
+<option value="Sandisk SSD ">Sandisk SSD</option>
+<option value="Sandisk PSD">Sandisk PSD</option>
+<option value="Sandisk USB">Sandisk USB</option>
+<option value="Sandisk memory card">Sandisk memory card</option>
+
+
+</select>
+
+<img src="" id="img2" />
+<h1 id="name2"></h1>
+<p id="des2"></p>
+
+</div>
+
+<footer style="background-color:#333; height:20px; width:100%; float:left; color:#FFF;">
+ 
+Created by Team 
+</footer>
+</div>
+<script> 
+function list1()
+{ 
+	var itm1 = document.getElementById('sel1').value;
+	var itm2 = document.getElementById('sel2').value;
+	
+	if(itm1 == itm2)
+	{
+		alert("Cannot Compare Same Items");
+		}
+	else
+	
+	{
+		if(itm1 == "SamsungSSD")
+		{
+			document.getElementById('img1').src="file:///C|/Users/lap/Desktop/mega project/images/3.jpg";
+			document.getElementById('name1').innerHTML ="SSD";
+			document.getElementById('des1').innerHTML = "Read write speed upto 3,500MB</br>Lots memory in very low price</br>best for Gaming pupose";
+		}
+		
+	if( itm1 =="Samsung PSD")
+	
+	{
+		document.getElementById('img1').src="file:///C|/Users/lap/Desktop/mega project/images/rsi-lmt-ProtableSSDPluggedInComputer-708-MemoryStorage-063016.jpg";
+		document.getElementById('name1').innerHTML="Samsung PSD";
+		document.getElementById('des1').innerHTML = "Small in size </br> 1 Tb memory</br> Awesome looks "
+		
+		}
+		if( itm1 =="Samsung Memory card")
+	
+	{
+		document.getElementById('img1').src="file:///C|/Users/lap/Desktop/mega project/images/rsi-rmt-S7WithCardInMemoryTray-708-MemoryStorage-063016.jpg";
+		document.getElementById('name1').innerHTML="Micro SSD";
+		document.getElementById('des1').innerHTML = "Memory 128<br>Supported by all phones <br>"
+		
+		}
+		
+		if( itm1 =="Samsung USB")
+	
+	{
+		document.getElementById('img1').src="file:///C|/Users/lap/Desktop/mega project/images/rsi-rmt-FlashDuoAndFit-708-MemoryStorage-063016.jpg";
+		document.getElementById('name1').innerHTML="USB";
+		document.getElementById('des1').innerHTML = "Memory 32 Gb<br> 2 inch length <br> "
+		
+		}
+		
+		}
+	
+	
+	}
+function list2()
+{ 
+	var itm1 = document.getElementById('sel1').value;
+	var itm2 = document.getElementById('sel2').value;
+	
+	if(itm1 == itm2)
+	{
+		alert("Cannot Compare Same Items");
+		}
+	else
+	
+	{
+		if(itm2 == "Sandisk SSD ")
+		{
+			document.getElementById('img2').src ="file:///C|/Users/lap/Desktop/mega project/images/x400-group-2.png";
+			document.getElementById('name2').innerHTML ="Sandisk SSD";
+			document.getElementById('des2').innerHTML = "Memory 512mp<br>Best for heavy duty <br>";
+		}
+		
+	if( itm2 =="Sandisk PSD")
+	
+	{
+		document.getElementById('img2').src="file:///C|/Users/lap/Desktop/mega project/images/Extreme900_front-retina.png";
+		document.getElementById('name2').innerHTML="Sandisk";
+		document.getElementById('des2').innerHTML = "Capacity: 1.92 TB<br>Read Speed: up to 850 MB/s7<br> Write Speed: up to 850 MB/s7"
+
+		
+		}
+		if( itm2 =="Sandisk USB")
+	
+	{
+		document.getElementById('img2').src="file:///C|/Users/lap/Desktop/mega project/images/cz48_angle_down-retina.png";
+		document.getElementById('name2').innerHTML="USB";
+		document.getElementById('des2').innerHTML = "Memory 256 GB<br>Read speed 100mb <br> "
+		
+		}
+		
+		if( itm2 =="Sandisk memory card")
+	
+	{
+		document.getElementById('img2').src="file:///C|/Users/lap/Desktop/mega project/images/ExtremePRO_SDXC_U3_Front_512GB-retina.png";
+		document.getElementById('name2').innerHTML="Micro SSD";
+		document.getElementById('des2').innerHTML = "Memory 512 GB<br>Read write speed 95MB<br>"
+		
+		}
+		
+		}
+	
+	
+	}
+
+</script>
+
+
+</body>
+</html>

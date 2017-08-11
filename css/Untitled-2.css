@@ -16,15 +16,15 @@ overflow:hidden;
 	}
 .sam{
 	float:left;
-	height:200px;
+	height:50px;
 	width:100%;
 	background-color:#FFF;	
 }
 .samimg{
-	height:200px;
+	height:100px;
 	width:50%;
 	float:left;
-	margin-top:100px;
+	margin-top:20px;
 	
 	background-color:#FFF;
 	
@@ -91,6 +91,7 @@ overflow:hidden;
 .nav ul li {
 	color:#333;;
 	background:none;
+	text-align:center;
 	
 
 float:left; 
@@ -173,12 +174,18 @@ background:none;
 	 width:100%;
  }
  .footer{
-	 margin-top:200px;
+	 
 	 float:left;
-	 height:200px;
+	 height:20px;
 	 width:100%;
-	 background-color:#000;
+	 background-color:#333;
  }
+ .foot{
+	 float:left;
+	 height:20px;
+	 width:100%;
+	 background-color:#333;}
+	 
  .slide{
 	 height:100px;
  width:70%;

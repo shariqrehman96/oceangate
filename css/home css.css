@@ -1,7 +1,16 @@
 @charset "utf-8";
 
-*{ margin:0; background-color:#F7F7F7; }
-
+*{ margin:0; }
+.bg{
+	height:164px;
+	width:100%;
+	background-color:#F7F7F7;
+}
+.main {
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
 .logo {
 	float:left;
 	
@@ -23,6 +32,8 @@
 	
 } 
 .nav{
+	text-align:center;
+
 	
 	width:100%;
 	height:40px;
@@ -40,7 +51,7 @@
 	}
 	
 .nav ul li {
-	color:#333;;
+	color:#333;
 	background:none;
 	
 
@@ -97,5 +108,159 @@ display:block;
 
  
 }
+.mybox{ width:40%; height:700px; text-align:center; float:left; background-color:#FFF; margin:50px 50px;}
+
+.mybox select{ width:100%;}
+
+.mybox img{ width:300px; height:500px;}
+
+
+
+.vid{
+	height:300px;
+	width:45%;
+	background:none;
+	float:left;
+	margin-left:-20px;
+	}
+	
+	.free{
+		height:50px;
+		width:100%;
+		float:left;
+		overflow:hidden;}
+		
+		
+		
+		
+		.fr2{
+			width:15%;
+			height:300px;
+			background-color:none;
+			float:left;	
+			
+		}
+		.txt{
+			width:37.7%;
+			height:300px;
+			background:none;
+			float:left;
+			overflow:hidden;
+			text-align:center;
+			font-style:italic;
+			font-family:Georgia, "Times New Roman", Times, serif;
+			font-size:18px;
+			color:#333;
+			margin-top:50px;
+			
+			
+		}
+		.pc
+
+		{height:440px;
+		float:left;
+		width:100%;
+		margin:0px;
+		background-color:#333;
+		
+		}
+		
+		div.polaroid {
+			float:left;
+			margin:10px;
+			background-color:#333;			
+  width: 25%;
+  color:#FFF;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: px;
+  margin-left:25px;
+  padding:25px;
+}
+
+div.container {
+	
+	background-color:#333;
+	
+	
+  text-align: center;
+  padding: 10px 20px;
+}
+ 
+ .slide{
+	 height:100px;
+ width:70%;
+ 
+ margin-top:50px;
+ overflow:hidden;
+ 
+ }
+ 
+ 
+ 
+ .mid{height:600px;
+ width:23%;
+ float:left;
+ margin:12px;
+ background-color:#F2F2F2;
+ }
+ .innr{
+	  
+ width:500%; height:100px; -webkit-animation:slid 20s  infinite  ; }
+ 
+ 
+ .innr img{ width:20%; height:100px; float:left;}
+ 
+ 
+ @-webkit-keyframes slid{
+
+	0%{ margin:0;}
+	25%{ margin-left:-100%;}
+	50%{ margin-left:-200%;}
+	75%{ margin-left:-300%;}
+	100%{ margin-left:-400%;}
+
+ }
+.cont1 { margin-top:150px;
+text-align:center;
+font-size:24px;
+font-family: Georgia, "Times New Roman", Times, serif;
+color:#333;
+
+}
+
+.cont2{
+	margin-top:10px;
+text-align:center;
+font-size:14px;
+font-family: Georgia, "Times New Roman", Times, serif;
+color:#333;
+
+}
+.btn{
+
+margin-top:100px;
+text-align:center;
+
+	
+}
+
+.btn button{
+	color:#666;
+	font-size:18px;
+	background:none;
+	cursor:pointer;
+	border-radius:25px;
+	padding: 10px 40px;
+	border:1px solid;
+	border-color:#333;
+	
+}
+.cvid{
+	float:left;
+	
+	height:300px;
+	width:100%;
+	background-image:url(file:///C|/Users/lap/Desktop/mega%20project/images/2.jpg);
 /* CSS Document */
 
